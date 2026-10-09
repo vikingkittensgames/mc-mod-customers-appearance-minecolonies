@@ -1,0 +1,10 @@
+{
+  "appearance.customers_minecolonies_appearance.local_colony": "MineColonies - Local Colony",
+  "config.customers_minecolonies_appearance.max_nearby_colony_distance": "Maximum Nearby Colony Distance",
+  "config.customers_minecolonies_appearance.enable_noble_customers": "Enable Noble Customers",
+  "config.customers_minecolonies_appearance.enable_aristocrat_customers": "Enable Aristocrat Customers",
+  "config.customers_minecolonies_appearance.enable_job_specific_customers": "Enable Job-Specific Customers",
+  "config.customers_minecolonies_appearance.enable_production_role_suppliers": "Enable Production-Role Suppliers",
+  "config.customers_minecolonies_appearance.enable_guard_models": "Enable Guard Models",
+  "config.customers_minecolonies_appearance.enable_child_and_student_models": "Enable Child and Student Models"
+}
