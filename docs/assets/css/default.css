@@ -66,6 +66,11 @@ a:focus {
   font-size: 1.25rem;
 }
 
+.customers-docs-return,
+.customers-docs-return:visited {
+  color: #32CD32;
+}
+
 .customers-docs-content {
   margin: 0 auto;
   max-width: 1100px;

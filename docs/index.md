@@ -11,13 +11,6 @@ colony around their spawner.
 
 [Learn more about MineColonies](https://www.curseforge.com/minecraft/mc-mods/minecolonies).
 
-## Requirements
-
-- Minecraft 1.21.1 with NeoForge 21.1.230 or newer in the 21.1 line
-- Customers 2.1.0 or newer
-- Architectury API 13.0.8 or newer in the 13.0 line
-- MineColonies 1.1.1368 for Minecraft 1.21.1 and its normal dependencies
-
 ## Use the appearance
 
 Install Customers, Architectury API, MineColonies and its dependencies, and
