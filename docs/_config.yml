@@ -1,0 +1,12 @@
+title: Customers MineColonies Appearance
+description: Documentation for the Customers MineColonies Appearance add-on
+remote_theme: julianolf/jekyll-theme-8bit
+
+plugins:
+  - jekyll-remote-theme
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/default.css' | relative_url }}">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+</head>
+<body>
+  <header class="customers-docs-header">
+    <a class="customers-docs-title" href="{{ '/' | relative_url }}">Customers MineColonies Appearance</a>
+    <nav aria-label="Documentation sections">
+      <a href="https://vikingkittensgames.github.io/mc-mod-customers/">&larr; Return to Customers Documentation</a>
+      <a href="{{ '/' | relative_url }}">Overview</a>
+      <a href="{{ '/configuration.html' | relative_url }}">Configuration</a>
+    </nav>
+  </header>
+  <main class="customers-docs-content">
+    {{ content }}
+    {% if page.parent_url and page.parent_title %}
+    <nav class="customers-docs-back" aria-label="Parent page">
+      <a href="{{ page.parent_url | relative_url }}">&larr; Back to {{ page.parent_title }}</a>
+    </nav>
+    {% endif %}
+  </main>
+</body>
+</html>
