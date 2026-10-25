@@ -245,8 +245,8 @@ types are ignored with a warning, and empty pools fall back to civilian models.
 * MineColonies' custom player/supporter textures belong to individual citizen
   records and should not be copied to Customers.
 * Holiday rendering can temporarily override the colony's selected style.
-* MineColonies updates frequently, so tested dependency ranges should be
-  conservative.
+* MineColonies updates frequently, so each newer release must be verified and
+  the open-ended range restricted after a confirmed incompatibility.
 
 The integration should compile primarily against `com.minecolonies.api`.
 Every use of a `core` or `apiimp` class must be isolated, documented, and
